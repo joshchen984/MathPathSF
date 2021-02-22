@@ -1,22 +1,54 @@
 import React from "react"
-import { Link } from "gatsby"
+import {graphql, useStaticQuery } from "gatsby"
 
-import Layout from "../components/layout"
+import Layout from "../components/Layout/layout.js"
 import Image from "../components/image"
 import SEO from "../components/seo"
+import HomeButtons from "../components/HomeButtons/homeButtons.js"
+const IndexPage = () => {
+  const images = useStaticQuery(graphql`
+  query ImageQuery{
+    flowchart: file(relativePath: { eq: "home/flowchart.jpg"}) {
+      childImageSharp {
+        fluid(maxWidth: 600) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    board: file(relativePath: { eq: "home/lowell-board.jpg"}) {
+      childImageSharp {
+        fluid(maxWidth: 600) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+  }
+`);
+  return (
+    <Layout>
+      <SEO title="Home" />
+        <div className="content" style={{textAlign: "center"}}>
+          <h1>Navigating Math in<br/>
+          San Francisco Public School</h1>
+          <h4>A Guide to Getting to Calculus at SFUSD High Schools</h4>
 
-const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link> <br />
-    <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
-  </Layout>
-)
+          <p><strong>Are you an SF public school student who loves math and is ready<br/>
+            for more challenging coursework?&nbsp;<br/><br/>Are you interested in studying STEM (Science/Tech/Engineering/Math) in college?<br/><br/>If your goal is to take Calculus class by senior year of high school but you aren’t sure how to get there, <br/>you’ve come to the right place.</strong></p>
+
+          <p>Since SFUSD stopped offering Algebra in 8th grade, San Francisco public school families have been confused about how students can get to Calculus during high school. Our goal is to give you all of the information and resources you need to determine the best options for your math journey, while saving you time and stress in the process.</p>
+          <HomeButtons/>
+
+        </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <Image data={images.flowchart}/>
+          </div>
+          <div class="col-lg-6">
+            <Image data={images.board}/>
+          </div>
+        </div>
+    </Layout>
+  );
+}
 
 export default IndexPage
