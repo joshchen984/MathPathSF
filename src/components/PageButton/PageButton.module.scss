@@ -1,0 +1,9 @@
+@import "../../styles/variables";
+.Button {
+  padding:10px;
+  text-decoration: none;
+  &:hover {
+    background-color: $brighter;
+    border: none;
+  }
+}

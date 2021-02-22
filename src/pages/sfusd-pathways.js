@@ -1,5 +1,5 @@
 import React from "react"
-import {graphql, useStaticQuery} from "gatsby"
+import {graphql, useStaticQuery, Link} from "gatsby"
 
 import Layout from "../components/Layout/layout.js"
 import SEO from "../components/seo"
@@ -31,7 +31,7 @@ const RecommendedPathways = () => {
     <h4>Pathways #3 &amp; #4) Doubling Up - Gets to Calculus</h4>
     <p>Two other ways to get to Calculus, while taking all of your math classes at school, is by doubling up freshman year (taking Algebra 1 and Geometry concurrently) or sophomore year (taking Geometry and Algebra 2 concurrently). You need to request permission from your school, however, and there aren’t enough spots for everyone who asks to double up as priority for freshman Geometry enrollment goes to those who already completed Algebra 1 and passed the MVT. But even though the <a href="http://www.sfusdmath.org/high-school-pathways.html">SFUSD website</a> lists doubling up as one of their recommended sequences, I have heard from students at SOTA, Washington, and Wallenberg high schools that this was not available an option. So be sure to check with your high school. </p>
     <p>However, some kids who double up may struggle with the workload of taking an additional math class on top of adjusting to high school. I would only recommend it if you’re pretty strong in math. In my Geometry class, I saw some students get frustrated when the homework required knowing some concepts they still hadn’t learned in their Algebra class. In addition, by doubling up you miss the opportunity of enrolling in other elective classes such as band, orchestra or art since there won’t be room in your schedule.</p>
-    <p>If you are unable to double up at school, an alternative option (if your high school allows it) is to take a UC-approved Geometry/Algebra 2 class online. You can search for classes on this <a href="https://hs-articulation.ucop.edu/agcourselist">UC website</a>, though most students use one of the <a href="https://www.mathpathsf.com/8th-grade-algebra">three online schools</a> I recommended for 8th grade Algebra. Before registering, be sure to ask your high school counselor for approval!</p>
+    <p>If you are unable to double up at school, an alternative option (if your high school allows it) is to take a UC-approved Geometry/Algebra 2 class online. You can search for classes on this <a href="https://hs-articulation.ucop.edu/agcourselist">UC website</a>, though most students use one of the <Link to="/eighth-grade">three online schools</Link> I recommended for 8th grade Algebra. Before registering, be sure to ask your high school counselor for approval!</p>
     <h4>Summary</h4>
     <p>Below you’ll find a chart summarizing the recommended math sequences for students who plan to take all their math classes at their SFUSD high school.&nbsp; To learn about alternative methods for reaching Calculus by senior year, including taking online Algebra in 8th grade, visit the Workaround Pathways to Calculus section.</p>
     <p>Please make sure to confirm any information you read with your school principal/counselor as each high school has different class offerings (some may not offer Calculus BC, for instance) and rules regarding doubling up.</p>
@@ -39,6 +39,9 @@ const RecommendedPathways = () => {
       <strong>SFUSD Recommended Math Sequences</strong> <br/>
       <i>(All Classes Taken at School)</i>
       <Image data = {images.file}/>
+      <p style={{fontSize: "0.9rem"}}>
+      Notes: Not all of the 11th-12th grade classes listed are offered at all SFUSD high schools--call the school or check their course catalog online. Precalculus is available as an an honors class; Algebra 1 &amp; 2, Geometry and Compression are non-honors. Calculus AB and BC are both AP classes but BC is a more rigorous class since it covers the same content plus additional math concepts.
+      </p>
     </div>
     </div>
 

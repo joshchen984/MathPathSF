@@ -21,7 +21,8 @@ const Layout = ({ children }) => {
     <>
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
       <main><Container fluid>{children}</Container></main>
-      <Footer><i>Copyright © 2020 MathPathSF. All Rights Reserved. No portion of this website may be reproduced without my express written consent.<br/>Contact Info: Send your questions, comments or suggestions to mathpathsf@gmail.com.</i></Footer>
+      <Footer><i>Copyright © 2020 MathPathSF. All Rights Reserved. No portion of this website may be reproduced without my express written consent.<br/>Contact Info: Send your questions, comments or suggestions to mathpathsf@gmail.com.<br/>
+      Site made by Josh Chen</i></Footer>
     </>
   )
 }

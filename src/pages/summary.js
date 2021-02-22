@@ -21,6 +21,13 @@ const Summary = (props) => {
         }
       }
     }
+    eighth: file(relativePath: {eq: "eighth-grade.png"}){
+      childImageSharp{
+        fluid(maxWidth: 600){
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
 
     summer: file(relativePath: { eq: "summer.png"}) {
       childImageSharp{
@@ -42,6 +49,7 @@ const Summary = (props) => {
         <em>Pathways #1-4: All Classes Taken at School<br/>Pathways #5-8: Workarounds to Calculus</em>
         </p>
         <Image data={images.sfusdImage} style={{"marginBottom": "40px"}}/>
+        <Image data={images.eighth} style={{"marginBottom": "40px"}}/>
         <Image data={images.summer}/>
       </div>
     </Layout>

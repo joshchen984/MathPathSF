@@ -1,6 +1,6 @@
 import React from 'react';
 import classes from './homebuttons.module.scss'
-import PageButton from "../PageButton.js"
+import PageButton from "../PageButton/PageButton.js"
 const HomeButtons = (props) => {
   return (
     <div className={classes.HomeButtons}>
