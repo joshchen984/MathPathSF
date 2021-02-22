@@ -1,0 +1,28 @@
+@import "../../styles/variables";
+$theme-colors: (
+  "primary": $primary-color
+);
+
+@import "~bootstrap/scss/bootstrap";
+.main{
+  background-color:#e0e0db;
+}
+.container-fluid{
+  margin:0;
+}
+.body .html{
+  width:100%;
+}
+.content{
+  padding: 10vh 20vw;
+}
+.primary-color{
+  color: $primary-color;
+}
+h1{
+  color: $primary-color;
+  text-align: center;
+}
+h4 {
+  color: $primary-color;
+}

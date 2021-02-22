@@ -8,10 +8,10 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
-
-import Header from "./header"
-import "./layout.css"
-
+import "./layout.scss";
+import Header from "../Header/header.js";
+import Footer from "../Footer/footer.js"
+import {Container} from "react-bootstrap";
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
@@ -26,24 +26,8 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
-        }}
-      >
-        <main>{children}</main>
-        <footer
-          style={{
-            marginTop: `2rem`,
-          }}
-        >
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
-        </footer>
-      </div>
+      <main><Container fluid>{children}</Container></main>
+      <Footer><i>Copyright © 2020 MathPathSF. All Rights Reserved. No portion of this website may be reproduced without my express written consent.<br/>Contact: info Send your questions, comments or suggestions to mathpathsf@gmail.com.</i></Footer>
     </>
   )
 }
