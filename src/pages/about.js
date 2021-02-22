@@ -5,7 +5,7 @@ import React from 'react'
 const About = (props) => {
   return (
     <Layout>
-      <SEO title="About"/>
+      <SEO title="About" description="When I started my freshman year at Lowell High School in San ..."/>
       <div className="content">
         <h1>About</h1>
         <p>

@@ -33,7 +33,7 @@ const Summary = (props) => {
 `);
   return (
     <Layout>
-      <SEO title="Summary"/>
+      <SEO title="Summary" description="SFUSD Math Sequences Pathways #1-4: All Classes ..."/>
       <div className="content">
         <h1>Summary of SFUSD Math Paths</h1>
         <Image data={images.flowchart} style={{margin: "40px 0"}}/>

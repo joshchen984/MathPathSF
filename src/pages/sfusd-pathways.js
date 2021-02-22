@@ -19,7 +19,7 @@ const RecommendedPathways = () => {
   `);
   return (
   <Layout>
-    <SEO title="SFUSD-Recommended Math Pathways" />
+    <SEO title="SFUSD-Recommended Math Pathways" description="SFUSD-Recommended Math Pathways. Starting with the ..."/>
     <div className="content">
     <h1>SFUSD-Recommended Math Pathways</h1>
     <p>Starting with the 2014-15 school year, the San Francisco Unified School District (SFUSD) no longer offered 8th graders the option to take Algebra 1. For more details, you can check out the <a href="http://www.sfusdmath.org/secondary-course-sequence.html">SFUSD Math Department website</a> and read the many articles that have been written about the change including those in <a href="https://priceonomics.com/why-did-san-francisco-schools-stop-teaching/" target="_blank"rel="noreferrer">Priceconomics</a>, <a href="https://www.sfchronicle.com/education/article/SF-schools-move-to-delay-algebra-shows-13518860.php" target="_blank"rel="noreferrer">SF Chronicle</a>, <a href="https://www.kqed.org/news/10610214/san-francisco-middle-schools-no-longer-teaching-algebra-1" target="_blank"rel="noreferrer">KQED</a>, and <a href="https://www.thebaycitybeacon.com/politics/squaring-the-circle-eighth-grade-algebra-and-the-2018-school-board-race/article_5baaac8e-cb2c-11e8-b048-dbcd72b52bba.html" target="_blank"rel="noreferrer">Bay City Beacon</a>.</p>

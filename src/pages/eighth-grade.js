@@ -20,7 +20,7 @@ const Eighth = (props) => {
 
   return (
     <Layout>
-      <SEO title="8th Grade Algebra"/>
+      <SEO title="8th Grade Algebra" description="Workaround Path to Calculus: 8th Grade Algebra. In addition to ..."/>
       <div className="content">
         <h1>Workaround Path to Calculus: <br/>8th Grade Algebra</h1>
         <p>In addition to the SFUSD-recommended sequences where students take all of their math classes at their high school, there are several other workaround paths to reach Calculus that involve taking classes outside of school. A popular one is taking an online Algebra class in 8th grade.&nbsp;</p>

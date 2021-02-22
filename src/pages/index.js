@@ -27,7 +27,7 @@ const IndexPage = () => {
 `);
   return (
     <Layout>
-      <SEO title="Home" />
+      <SEO title="MathPathSF"/>
       <div className="content" style={{textAlign: "center"}}>
         <h1>Navigating Math in<br/>
         San Francisco Public School</h1>

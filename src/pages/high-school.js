@@ -18,7 +18,7 @@ const HighSchool = (props) => {
 `);
   return (
     <Layout>
-      <SEO title="High School"/>
+      <SEO title="High School" description="Workarounds Paths to Calculus: High School. For students who ..."/>
       <div className="content">
       <h1>Workarounds Paths to Calculus: High School</h1>
       <p>For students who take Algebra in 9th grade (without doubling up in Geometry), it is possible to get to Calculus senior year by taking a math class over the summer. <strong>However, if you plan on taking a class outside of SFUSD, be sure to get approval from your high school counselor as different high schools may have their own rules regarding requesting permission to take community college courses. Also be sure to confirm any information provided here in case things change.</strong></p>
