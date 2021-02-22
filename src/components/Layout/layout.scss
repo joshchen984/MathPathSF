@@ -9,12 +9,15 @@ $theme-colors: (
 }
 .container-fluid{
   margin:0;
+  padding:0;
 }
 .body .html{
+  font-family:'Lato' !important;
   width:100%;
 }
 .content{
-  padding: 10vh 20vw;
+  padding: 20vh 25vw 10vh;
+  font-family: 'Lato';
 }
 .primary-color{
   color: $primary-color;
@@ -23,6 +26,15 @@ h1{
   color: $primary-color;
   text-align: center;
 }
-h4 {
+h4 , h2{
   color: $primary-color;
+}
+a{
+  color: $primary-color;
+  text-decoration: underline;
+}
+@media (max-width: 768px){
+  .content {
+    padding:5px;
+  }
 }

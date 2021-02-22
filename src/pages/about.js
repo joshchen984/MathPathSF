@@ -1,5 +1,6 @@
 import Layout from '../components/Layout/layout.js'
 import SEO from "../components/seo"
+import Testimonials from "../components/Testimonials/testimonials.js";
 import React from 'react'
 const About = (props) => {
   return (
@@ -19,6 +20,7 @@ const About = (props) => {
         While I definitely don’t think taking advanced math classes is necessary for everyone, I felt bad that kids who wanted to were at a disadvantage and had to scramble to figure out their options just because they didn’t have the information. This led me to the idea of a website to inform people about the different ways to advance in math and take Calculus in a SFUSD high school. I hope this site makes the process more transparent and easy to understand so students are aware of what’s possible and can decide what’s best for their education.  
         </p>
       </div>
+      <Testimonials/>
     </Layout>
   );
 }

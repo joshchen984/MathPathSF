@@ -2,10 +2,11 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import {Navbar, Nav, NavDropdown} from 'react-bootstrap'
+import classes from "./header.module.scss";
 const Header = ({ siteTitle }) => (
   <header>
-    <Navbar bg="primary" fixed="top" variant="dark"expand="lg" style={{color:'white'}}>
-      <Navbar.Brand as={Link} to="/" style={{color:"#e1710e"}}>{siteTitle}</Navbar.Brand>
+    <Navbar bg="primary" fixed="top" variant="dark"expand="lg" className={classes.Navbar}>
+      <Navbar.Brand as={Link} to="/" style={{color:"#e1710e", fontWeight: "bold"}}>{siteTitle}</Navbar.Brand>
       <Navbar.Toggle aria-controls="navbarCollapse"/>
       <Navbar.Collapse id="navbarCollapse">
         <Nav as="ul" className="mr-auto">

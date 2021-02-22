@@ -3,7 +3,7 @@ import {Button} from "react-bootstrap"
 import {Link} from 'gatsby';
 
 const PageButton = (props) => (
-  <Button as={Link} to={props.to} variant="primary" style={{padding:"10px"}}>{props.children}</Button>
+  <Button as={Link} to={props.to} variant="primary" style={{padding:"10px", textDecoration: "none"}}>{props.children}</Button>
 )
 
 export default PageButton;

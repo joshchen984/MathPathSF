@@ -1,5 +1,5 @@
 import React from "react"
-import { Link , graphql, useStaticQuery} from "gatsby"
+import {graphql, useStaticQuery} from "gatsby"
 
 import Layout from "../components/Layout/layout.js"
 import SEO from "../components/seo"
@@ -10,7 +10,7 @@ const RecommendedPathways = () => {
     query SFUSDImages {
       file(relativePath: {eq: "sfusd-pathways.png"}){
         childImageSharp{
-          fluid(maxWidth: 600){
+          fluid(maxWidth: 800){
             ...GatsbyImageSharpFluid
           }
         }
@@ -22,7 +22,7 @@ const RecommendedPathways = () => {
     <SEO title="SFUSD-Recommended Math Pathways" />
     <div className="content">
     <h1>SFUSD-Recommended Math Pathways</h1>
-    <p>Starting with the 2014-15 school year, the San Francisco Unified School District (SFUSD) no longer offered 8th graders the option to take Algebra 1. For more details, you can check out the <a href="http://www.sfusdmath.org/secondary-course-sequence.html">SFUSD Math Department website</a> and read the many articles that have been written about the change including those in <a href="https://priceonomics.com/why-did-san-francisco-schools-stop-teaching/" target="_blank">Priceconomics</a>, <a href="https://www.sfchronicle.com/education/article/SF-schools-move-to-delay-algebra-shows-13518860.php" target="_blank">SF Chronicle</a>, <a href="https://www.kqed.org/news/10610214/san-francisco-middle-schools-no-longer-teaching-algebra-1" target="_blank">KQED</a>, and <a href="https://www.thebaycitybeacon.com/politics/squaring-the-circle-eighth-grade-algebra-and-the-2018-school-board-race/article_5baaac8e-cb2c-11e8-b048-dbcd72b52bba.html" target="_blank">Bay City Beacon</a>.</p>
+    <p>Starting with the 2014-15 school year, the San Francisco Unified School District (SFUSD) no longer offered 8th graders the option to take Algebra 1. For more details, you can check out the <a href="http://www.sfusdmath.org/secondary-course-sequence.html">SFUSD Math Department website</a> and read the many articles that have been written about the change including those in <a href="https://priceonomics.com/why-did-san-francisco-schools-stop-teaching/" target="_blank"rel="noreferrer">Priceconomics</a>, <a href="https://www.sfchronicle.com/education/article/SF-schools-move-to-delay-algebra-shows-13518860.php" target="_blank"rel="noreferrer">SF Chronicle</a>, <a href="https://www.kqed.org/news/10610214/san-francisco-middle-schools-no-longer-teaching-algebra-1" target="_blank"rel="noreferrer">KQED</a>, and <a href="https://www.thebaycitybeacon.com/politics/squaring-the-circle-eighth-grade-algebra-and-the-2018-school-board-race/article_5baaac8e-cb2c-11e8-b048-dbcd72b52bba.html" target="_blank"rel="noreferrer">Bay City Beacon</a>.</p>
     <p>The current high school 4-year math sequence now starts with Algebra in 9th grade and ends with Precalculus (or AP Statistics) in 12th grade. For students who want to take Calculus by senior year, however, there are other routes you can take. Since researching and understanding all the options can be quite confusing, I have listed and described them here on this site. These alternate sequences may require extra effort, some luck (to get into certain classes), and coordination with your high school counselor, but I hope this site helps you find the best path for you!</p>
     <h4>Pathway #1) SFUSD Traditional Math Sequence - Gets to Precalculus</h4>
     <p>In the current math sequence, high school freshmen (9th grade) are enrolled in Algebra (unless they already took it at a non-SFUSD school and passed the Math Validation Test). Students would then take Geometry in 10th grade/sophomore year, Algebra 2 in 11th grade, and Precalculus and/or AP Statistics in 12th. In this sequence, students do not get to Calculus by senior year.</p>
