@@ -26,6 +26,9 @@ $theme-colors: (
 h1{
   color: $primary-color;
   text-align: center;
+  font-weight: bold;
+  font-size: 3em;
+  margin-bottom: 5vh;
 }
 h4 , h2{
   color: $primary-color;

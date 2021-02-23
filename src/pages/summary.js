@@ -9,7 +9,7 @@ const Summary = (props) => {
   query SummaryQuery{
     flowchart: file(relativePath: { eq: "flowchart.jpg"}) {
       childImageSharp {
-        fluid(maxWidth: 600) {
+        fluid(maxWidth: 800, quality: 100) {
           ...GatsbyImageSharpFluid
         }
       }
