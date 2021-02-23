@@ -62,14 +62,16 @@ const IndexPage = () => {
         </p>
         <HomeButtons />
       </div>
-      <Row>
-        <Col lg={6}>
-          <Image data={images.flowchart} />
-        </Col>
-        <Col lg={6}>
-          <Image data={images.board} />
-        </Col>
-      </Row>
+      <div style={{width:"60%", margin:"auto"}}>
+        <Row>
+          <Col lg={6}>
+            <Image data={images.flowchart} />
+          </Col>
+          <Col lg={6}>
+            <Image data={images.board} />
+          </Col>
+        </Row>
+      </div>
     </Layout>
   )
 }
