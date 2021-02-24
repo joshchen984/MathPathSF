@@ -1,23 +1,12 @@
 import React from "react"
 import Layout from "../components/Layout/layout.js"
 import SEO from "../components/seo"
-import { graphql, useStaticQuery } from "gatsby"
 import ListItem from "../components/ListItem.js"
-import Image from "../components/image"
 import ImageHeadline from "../components/ImageHeadline/ImageHeadline.js"
-
+import Table from "../components/Table/table.js"
 const Eighth = props => {
-  const images = useStaticQuery(graphql`
-    query EighthGradeImages {
-      file(relativePath: { eq: "eighth-grade.png" }) {
-        childImageSharp {
-          fluid(maxWidth: 600) {
-            ...GatsbyImageSharpFluid
-          }
-        }
-      }
-    }
-  `)
+  const headers = ["Pathway #", "Grade 8", "Grade 9", "Grade 10", "Grade 11", "Grade 12"];
+  const tableValues = [["Pathway 5", "Algebra 1 (online or non-SFUSD school)", "Geometry", "Algebra 2", "Precalculus", <p>- AP Calculus <br/>- AP Statistics</p>]];
 
   return (
     <Layout>
@@ -195,7 +184,9 @@ const Eighth = props => {
         <ImageHeadline>
           Workaround Sequence to Calculus: 8th Grade Algebra
         </ImageHeadline>
-        <Image data={images.file} />
+        <Table 
+          headers={headers}
+          values={tableValues}/>
       </div>
     </Layout>
   )

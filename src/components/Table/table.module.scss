@@ -1,0 +1,34 @@
+.Table {
+  border: 1px solid black;
+  width:100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  overflow-wrap: break-word;
+  font-size: 1vw;
+}
+.th{
+  text-align: center;
+  color: white;
+  background-color: #4472c4;
+}
+.td {
+  padding-top:0;
+  background-color: #cfd5ea;
+  padding: 5px;
+}
+.th, .td {
+  border: 1px solid black;
+  
+}
+
+@media (max-width: 768px){
+  .Table {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width : 414px) {
+  .Table {
+    font-size: 10px;
+  }
+}
+  
