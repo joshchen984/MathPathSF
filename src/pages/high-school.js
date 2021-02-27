@@ -1,22 +1,11 @@
 import Layout from "../components/Layout/layout.js"
 import SEO from "../components/seo"
 import React from "react"
-import { graphql, useStaticQuery, Link } from "gatsby"
-import Image from "../components/image"
+import { Link } from "gatsby"
 import ImageHeadline from "../components/ImageHeadline/ImageHeadline.js"
+import HighSchoolTable from "../components/Tables/HighSchoolTable.js"
 
 const HighSchool = props => {
-  const images = useStaticQuery(graphql`
-    query SummerImages {
-      file(relativePath: { eq: "summer.png" }) {
-        childImageSharp {
-          fluid(maxWidth: 1000, quality: 100) {
-            ...GatsbyImageSharpFluid
-          }
-        }
-      }
-    }
-  `)
   return (
     <Layout>
       <SEO
@@ -106,7 +95,7 @@ const HighSchool = props => {
         </p>
 
         <ImageHeadline>Workarounds to Calculus: High School</ImageHeadline>
-        <Image data={images.file} style={{ margin: "auto", width: "100%" }} />
+        <HighSchoolTable />
         <p style={{ fontSize: "0.9rem" }}>
           Note: Students need to request permission from their high school
           counselor to ensure community college or any non-SFUSD classes will

@@ -1,22 +1,11 @@
 import React from "react"
-import { graphql, useStaticQuery, Link } from "gatsby"
-
+import { Link } from "gatsby"
 import Layout from "../components/Layout/layout.js"
 import SEO from "../components/seo"
-import Image from "../components/image"
 import ImageHeadline from "../components/ImageHeadline/ImageHeadline.js"
+import SfusdTable from "../components/Tables/SfusdTable.js"
+
 const RecommendedPathways = () => {
-  const images = useStaticQuery(graphql`
-    query SFUSDImages {
-      file(relativePath: { eq: "sfusd-pathways.png" }) {
-        childImageSharp {
-          fluid(maxWidth: 800) {
-            ...GatsbyImageSharpFluid
-          }
-        }
-      }
-    }
-  `)
   return (
     <Layout>
       <SEO
@@ -155,7 +144,7 @@ const RecommendedPathways = () => {
         <ImageHeadline sub="(All Classes Taken at School)">
           SFUSD Recommended Math Sequences
         </ImageHeadline>
-        <Image data={images.file} />
+        <SfusdTable />
         <p style={{ fontSize: "0.9rem" }}>
           Notes: Not all of the 11th-12th grade classes listed are offered at
           all SFUSD high schools--call the school or check their course catalog

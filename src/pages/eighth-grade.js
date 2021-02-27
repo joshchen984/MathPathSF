@@ -3,11 +3,9 @@ import Layout from "../components/Layout/layout.js"
 import SEO from "../components/seo"
 import ListItem from "../components/ListItem.js"
 import ImageHeadline from "../components/ImageHeadline/ImageHeadline.js"
-import Table from "../components/Table/table.js"
-const Eighth = props => {
-  const headers = ["Pathway #", "Grade 8", "Grade 9", "Grade 10", "Grade 11", "Grade 12"];
-  const tableValues = [["Pathway 5", "Algebra 1 (online or non-SFUSD school)", "Geometry", "Algebra 2", "Precalculus", <p>- AP Calculus <br/>- AP Statistics</p>]];
+import EighthTable from "../components/Tables/EighthTable.js";
 
+const Eighth = props => {
   return (
     <Layout>
       <SEO
@@ -184,9 +182,7 @@ const Eighth = props => {
         <ImageHeadline>
           Workaround Sequence to Calculus: 8th Grade Algebra
         </ImageHeadline>
-        <Table 
-          headers={headers}
-          values={tableValues}/>
+        <EighthTable/>
       </div>
     </Layout>
   )

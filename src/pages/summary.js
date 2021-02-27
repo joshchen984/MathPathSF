@@ -3,6 +3,9 @@ import SEO from "../components/seo"
 import React from 'react'
 import {graphql, useStaticQuery } from "gatsby"
 import Image from "../components/image"
+import EighthTable from "../components/Tables/EighthTable.js";
+import SfusdTable from "../components/Tables/SfusdTable.js"
+import HighSchoolTable from "../components/Tables/HighSchoolTable.js"
 
 const Summary = (props) => {
   const images = useStaticQuery(graphql`
@@ -10,28 +13,6 @@ const Summary = (props) => {
     flowchart: file(relativePath: { eq: "flowchart.jpg"}) {
       childImageSharp {
         fluid(maxWidth: 800, quality: 100) {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
-    sfusdImage: file(relativePath: { eq: "sfusd-pathways.png"}) {
-      childImageSharp {
-        fluid(maxWidth: 600) {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
-    eighth: file(relativePath: {eq: "eighth-grade.png"}){
-      childImageSharp{
-        fluid(maxWidth: 600){
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
-
-    summer: file(relativePath: { eq: "summer.png"}) {
-      childImageSharp{
-        fluid(maxHeight: 1000, quality:100){
           ...GatsbyImageSharpFluid
         }
       }
@@ -48,9 +29,9 @@ const Summary = (props) => {
         <strong>SFUSD Math Sequences</strong> <br/>
         <em>Pathways #1-4: All Classes Taken at School<br/>Pathways #5-8: Workarounds to Calculus</em>
         </p>
-        <Image data={images.sfusdImage} style={{"marginBottom": "40px"}}/>
-        <Image data={images.eighth} style={{"marginBottom": "40px"}}/>
-        <Image data={images.summer}/>
+        <SfusdTable style={{"marginBottom": "40px"}}/>
+        <EighthTable style={{"marginBottom": "40px"}}/>
+        <HighSchoolTable/>
       </div>
     </Layout>
   );

@@ -14,19 +14,25 @@ const Table = (props) => {
     )
   }
   
+  let rowClass = "";
   for(let i = 0; i < rows;i++){
     const row = [];
     for(let j = 0; j < cols;j++){
       row.push(<td key={j} className={classes.td}>{props.values[i][j]}</td>);
     }
+    if(i % 2 === 1){
+      rowClass = classes.lightGray;
+    }else{
+      rowClass = classes.darkGray;
+    }
     body.push(
-      <tr key={i}>
+      <tr key={i} className={rowClass}>
         {row}
       </tr>
-    )
+    );
   }
   return (
-    <table className={classes.Table}>
+    <table className={classes.Table} style={props.style}>
       <thead>
         <tr>{headers}</tr>
       </thead>
