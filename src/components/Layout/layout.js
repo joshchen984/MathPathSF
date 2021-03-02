@@ -36,7 +36,7 @@ const Layout = ({ children }) => {
           >
             here
           </a>
-          . to .
+          .
           <br />
           Site made by Josh Chen
         </i>
