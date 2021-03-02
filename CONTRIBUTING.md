@@ -1,5 +1,5 @@
 # Contributing to MathPathSF
-
+I would prefer if people used Github issues for every suggestion, question, or comment. But if you don't know how to do that then you can email me at mathpathsf@gmail.com still including the information below.
 ## Feature Suggestion
 Request features using Github issues.
 * Use a clear and descriptive title for the issue to describe the suggestion

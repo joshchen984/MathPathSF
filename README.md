@@ -6,5 +6,5 @@ The website for <a href="https://www.mathpathsf.com/">mathpathsf.com</a> built w
 
 ![demo](images/demo.png)
 
-## Contributions
-Read [CONTRIBUTING.md](https://github.com/joshchen984/MathPathSF/blob/master/CONTRIBUTING.md) for information on how to contribute to the site.
+## Contributing
+Please read [CONTRIBUTING.md](https://github.com/joshchen984/MathPathSF/blob/master/CONTRIBUTING.md) for information on how to contribute to the site.
