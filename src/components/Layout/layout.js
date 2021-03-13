@@ -3,6 +3,7 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import "fontsource-lato"
 import Header from "../Header/header.js"
+import Popup from "../Popup/Popup.js"
 import Footer from "../Footer/footer.js"
 import { Container } from "react-bootstrap"
 import "./layout.scss"
@@ -21,6 +22,7 @@ const Layout = ({ children }) => {
     <>
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
       <main>
+        <Popup>My Popup</Popup>
         <Container fluid>{children}</Container>
       </main>
       <Footer>
