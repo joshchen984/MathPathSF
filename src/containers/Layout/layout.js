@@ -49,7 +49,7 @@ const Layout = ({ children }) => {
       </main>
       <Footer>
         <i>
-          Copyright © 2020 MathPathSF. All Rights Reserved. No portion of this
+          Copyright © 2021 MathPathSF. All Rights Reserved. No portion of this
           website may be reproduced without my express written consent.
           <br />
           Learn how to send your questions, comments or suggestions{" "}
