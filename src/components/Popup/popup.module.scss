@@ -1,0 +1,29 @@
+.Popup {
+  position: fixed;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  background-color: white;
+  width:80%;
+  height:40%;
+  z-index: 500;
+  padding: 2rem;
+  overflow: auto;
+  p{
+    font-size:1.5rem;
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .Popup{
+    width:70%;
+    height:20%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .Popup{
+    width:30%;
+    height:20%;
+  }
+}

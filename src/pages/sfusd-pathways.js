@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import Layout from "../components/Layout/layout.js"
+import Layout from "../containers/Layout/layout.js"
 import SEO from "../components/seo"
 import ImageHeadline from "../components/ImageHeadline/ImageHeadline.js"
 import SfusdTable from "../components/Tables/SfusdTable.js"
