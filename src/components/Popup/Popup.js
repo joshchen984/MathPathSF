@@ -1,14 +1,16 @@
-import classes from './popup.module.scss';
-import React from "react";
-import Backdrop from "./Backdrop/Backdrop.js";
-const Popup = ({children}) => {
+import classes from "./popup.module.scss"
+import React from "react"
+import Backdrop from "./Backdrop/Backdrop.js"
+const Popup = ({ children, closePopup }) => {
   return (
     <>
-    <Backdrop/>
-    <div className={classes.Popup}>
-      {children}
-    </div>
+      <Backdrop click={closePopup} />
+      <div className={classes.Popup}>
+        <div>
+          <p>{children}</p>
+        </div>
+      </div>
     </>
-  );
+  )
 }
-export default Popup;
+export default Popup

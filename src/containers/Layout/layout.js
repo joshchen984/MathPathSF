@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql, Link } from "gatsby"
 import "fontsource-lato"
 import Header from "../../components/Header/header.js"
 import Popup from "../../components/Popup/Popup.js"
@@ -30,7 +30,16 @@ const Layout = ({ children }) => {
     }
   }, [])
 
-  const popup = showPopup ? <Popup>My Popup</Popup> : null
+  const closePopup = () => {
+    changeShowPopup(false)
+  }
+
+  const popup = showPopup ? (
+    <Popup closePopup={closePopup}>
+      2021 registration for SFUSD's Summer School Geometry class is open! For
+      details, click <Link to="/high-school">here</Link>.
+    </Popup>
+  ) : null
   return (
     <>
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
