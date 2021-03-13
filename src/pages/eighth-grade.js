@@ -1,5 +1,5 @@
 import React from "react"
-import Layout from "../components/Layout/layout.js"
+import Layout from "../containers/Layout/layout.js"
 import SEO from "../components/seo"
 import ListItem from "../components/ListItem.js"
 import ImageHeadline from "../components/ImageHeadline/ImageHeadline.js"
