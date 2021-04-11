@@ -3,7 +3,7 @@ import Layout from "../containers/Layout/layout.js"
 import SEO from "../components/seo"
 import ListItem from "../components/ListItem.js"
 import ImageHeadline from "../components/ImageHeadline/ImageHeadline.js"
-import EighthTable from "../components/Tables/EighthTable.js";
+import EighthTable from "../components/Tables/EighthTable.js"
 
 const Eighth = props => {
   return (
@@ -163,26 +163,15 @@ const Eighth = props => {
         </p>
         <p>
           For details on upcoming MVT dates and how to register,{" "}
-          <a
-            href="http://www.sfusdmath.org/math-validation-test.html"
-            target="_blank"
-            rel="noreferrer"
-          >
+          <a href="https://www.sfusd.edu/mvt" target="_blank" rel="noreferrer">
             click here
           </a>
-          . To see a previous test and answer key,{" "}
-          <a
-            href="http://www.sfusdmath.org/previous-mvt-administrations.html"
-            target="_blank"
-            rel="noreferrer"
-          >
-            click here.
-          </a>
+          .
         </p>
         <ImageHeadline>
           Workaround Sequence to Calculus: 8th Grade Algebra
         </ImageHeadline>
-        <EighthTable/>
+        <EighthTable />
       </div>
     </Layout>
   )
