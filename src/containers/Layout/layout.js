@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react"
+import React, { useState } from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql, Link } from "gatsby"
 import "fontsource-lato"
@@ -18,17 +18,17 @@ const Layout = ({ children }) => {
       }
     }
   `)
-  useEffect(() => {
-    const now = new Date()
-    const expTime = localStorage.getItem("popup")
-    if (expTime === null || parseInt(expTime) < now.getTime()) {
-      //expiration time is one hour
-      localStorage.setItem("popup", (now.getTime() + 3600000).toString())
-      changeShowPopup(true)
-    } else {
-      changeShowPopup(false)
-    }
-  }, [])
+  // useEffect(() => {
+  //   const now = new Date()
+  //   const expTime = localStorage.getItem("popup")
+  //   if (expTime === null || parseInt(expTime) < now.getTime()) {
+  //     //expiration time is one hour
+  //     localStorage.setItem("popup", (now.getTime() + 3600000).toString())
+  //     changeShowPopup(true)
+  //   } else {
+  //     changeShowPopup(false)
+  //   }
+  // }, [])
 
   const closePopup = () => {
     changeShowPopup(false)
