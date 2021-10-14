@@ -71,19 +71,17 @@ const Eighth = props => {
           >
             {" "}
             Course Title: Algebra 1, Part 1 &amp; 2 (Teacher Led, ALG 051 &amp;
-            0531). Cost: $270/semester. Only the “Teacher-Led” class is
-            approved.
+            0531). Only the “Teacher-Led” class is approved.
           </ListItem>
           <ListItem
             title="APEX Virtual Learning School."
             link="https://www.apexlearningvs.com/course-catalog/"
           >
             {" "}
-            Course Title: Algebra 1, Semester 1 &amp; 2 (non-honors). Cost:
-            $350/semester. Be sure to register for the regular (non-honors)
-            Algebra 1 course, as that is the UC-approved course. APEX
-            occasionally emails $50 off coupons so sign up to receive their
-            emails if you’re interested.&nbsp;
+            Course Title: Algebra 1, Semester 1 &amp; 2 (non-honors). Be sure to
+            register for the regular (non-honors) Algebra 1 course, as that is
+            the UC-approved course. APEX occasionally emails $50 off coupons so
+            sign up to receive their emails if you’re interested.&nbsp;
           </ListItem>
           <ListItem
             title="UC Scout - University of California."
@@ -91,11 +89,11 @@ const Eighth = props => {
           >
             {" "}
             Course Title: Algebra 1 (Core On-Demand), Semester 1 &amp; 2
-            (ALGI141 &amp; 142). Cost: $399/semester. Only the “Core On-Demand”
-            classes are approved. Their classes have set start and end dates.
-            For instance, a semester may run from mid-August to mid-January and
-            while students can start anytime and go at their own pace, they have
-            to finish the class by the official end date.&nbsp;
+            (ALGI141 &amp; 142). Only the “Core On-Demand” classes are approved.
+            Their classes have set start and end dates. For instance, a semester
+            may run from mid-August to mid-January and while students can start
+            anytime and go at their own pace, they have to finish the class by
+            the official end date.&nbsp;
           </ListItem>
         </ul>
         <p>

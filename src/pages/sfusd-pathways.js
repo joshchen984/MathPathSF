@@ -84,10 +84,9 @@ const RecommendedPathways = () => {
           to take a “compression” class in 11th grade that squeezes two years of
           math--Algebra 2 and Precalculus--into one year. This would allow you
           to take Calculus during senior year. The downside is that it moves
-          quickly and skips over some concepts so students have to learn those
-          on their own, especially if they plan on taking Calculus BC. Also,
-          SFUSD doesn’t recognize this class as honors (since the UC’s don’t) so
-          your grade will not be weighted in your GPA.
+          quickly and skips over some concepts, but at least you don't have to
+          take a math class outside of school. Also, SFUSD doesn’t recognize
+          this class as honors so your grade will not be weighted in your GPA.
         </p>
         <h4>Pathways #3 &amp; #4) Doubling Up - Gets to Calculus</h4>
         <p>
