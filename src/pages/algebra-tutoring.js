@@ -45,13 +45,13 @@ const Tutoring = props => {
         </p>
         <p>
           To help out, MathPathSF.com is offering free algebra tutoring and test
-          prep online. Our drop-in sessions will be held via Zoom on Thursdays
-          at 5pm (with occasional exceptions). These classes are an easy way to
-          ask questions and get homework help, and students may come to every
-          session or drop-in as needed. The classes will run through May 2022,
-          with an emphasis on Math Validation Test prep in April and May.
-          Sessions will be run by Lowell High School student volunteers, most of
-          whom took Algebra in 8th grade through BYU or Apex Learning.
+          prep online. Our drop-in sessions will be held via Zoom on Wednesday
+          or Thursday at 5pm (with occasional exceptions). These classes are an
+          easy way to ask questions and get homework help, and students may come
+          to every session or drop-in as needed. The classes will run through
+          May 2022, with an emphasis on Math Validation Test prep in April and
+          May. Sessions will be run by Lowell High School student volunteers,
+          most of whom took Algebra in 8th grade through BYU or Apex Learning.
         </p>
         <p>
           To sign up and get the Zoom link, please fill out{" "}
