@@ -40,26 +40,17 @@ const Tutoring = props => {
           <Link to="/eighth-grade">
             online Algebra class and pass the Math Validation Test
           </Link>
-          . Factor in that these students are also researching and applying to
-          high schools, this can seem overwhelming. But it doesn’t have to.
+          . In 2023, the MVT will be held on May 13th and August 19th. Students
+          who don’t meet the cut-off score can retake the test in August. It
+          will be held at a SFUSD high school and students are assigned an
+          8:30am or 9:00am start time. Students are given four hours to complete
+          the test though most finish in three hours.
         </p>
         <p>
-          To help out, MathPathSF.com is offering free algebra tutoring and test
-          prep online. Our drop-in sessions will be held via Zoom on Wednesday
-          or Thursday at 5pm (with occasional exceptions). These classes are an
-          easy way to ask questions and get homework help, and students may come
-          to every session or drop-in as needed. The classes will run through
-          May 2022, with an emphasis on Math Validation Test prep in April and
-          May. Sessions will be run by Lowell High School student volunteers,
-          most of whom took Algebra in 8th grade through BYU or Apex Learning.
-        </p>
-        <p>
-          To sign up and get the Zoom link, please fill out{" "}
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSe7CJ2MD3Y1WVNIeLRMwCpC1CxOniyq14h60unSIeWdf33I3Q/viewform?usp=pp_url">
-            this form
-          </a>
-          . Registrants will also have access to a private Facebook group where
-          they can reach out to the teachers and post questions.{" "}
+          To help students prepare, MathPathSF will be offering free, virtual
+          MVT test prep classes in April and August of 2023. Sessions will be
+          taught by Lowell High School students. Please check back in late March
+          for dates and registration information.
         </p>
         <p>Questions? Email mathpathsf@gmail.com </p>
       </div>
