@@ -49,18 +49,10 @@ const Layout = ({ children }) => {
       </main>
       <Footer>
         <i>
-          Copyright © 2021 MathPathSF. All Rights Reserved. No portion of this
+          Copyright © 2022 MathPathSF. All Rights Reserved. No portion of this
           website may be reproduced without my express written consent.
           <br />
-          Learn how to send your questions, comments or suggestions{" "}
-          <a
-            href="https://github.com/joshchen984/MathPathSF/blob/master/CONTRIBUTING.md"
-            target="_blank"
-            rel="noreferrer"
-          >
-            here
-          </a>
-          .
+          Send your questions, comments, or suggestions to mathpathsf@gmail.com.
         </i>
       </Footer>
     </>
