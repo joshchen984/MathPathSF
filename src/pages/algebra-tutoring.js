@@ -48,9 +48,11 @@ const Tutoring = props => {
         </p>
         <p>
           To help students prepare, MathPathSF will be offering free, virtual
-          MVT test prep classes in April and August of 2023. Sessions will be
-          taught by Lowell High School students. Please check back in late March
-          for dates and registration information.
+          MVT test prep classes on <strong>Sunday, 4/30/23</strong>, at 10am and{" "}
+          <strong>Saturday, 5/6/23</strong>, at 10am. Sessions will be taught by
+          Lowell High School students. To register, please email
+          mathpathsf@gmail.com. We will email registrants the practice test that
+          will be reviewed and the Zoom link the day before the class.
         </p>
         <p>Questions? Email mathpathsf@gmail.com </p>
       </div>

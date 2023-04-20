@@ -7,4 +7,7 @@ The website for <a href="https://www.mathpathsf.com/">mathpathsf.com</a> built w
 ![demo](images/demo.png)
 
 ## Contributing
+
+Use Node 12 (run `nvm use` to switch)
+
 Please read [CONTRIBUTING.md](https://github.com/joshchen984/MathPathSF/blob/master/CONTRIBUTING.md) for information on how to contribute to the site.
