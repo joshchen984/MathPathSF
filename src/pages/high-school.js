@@ -26,20 +26,22 @@ const HighSchool = props => {
             information provided here in case things change.
           </strong>
         </p>
-        <h4>Pathway #6) Summer After 9th Grade: SFUSD Summer School Geometry </h4>
+        <h4>
+          Pathway #6) Summer After 9th Grade: SFUSD Summer School Geometry{" "}
+        </h4>
         <p>
-          <strong>SFUSD Summer Geometry: </strong>Freshman who have taken Algebra can
-          apply to take a free, intensive six-week{" "}
+          <strong>SFUSD Summer Geometry: </strong>Freshman who have taken
+          Algebra can apply to take a free, intensive six-week{" "}
           <a
-            href="http://www.sfusdmath.org/summer-school-geometry.html"
+            href="https://www.sfusd.edu/Intensive-Summer-Geometry"
             target="_blank"
             rel="noreferrer"
           >
             SFUSD Geometry course
           </a>{" "}
           over the summer. There are a limited number of spots so getting in is
-          not guaranteed. It is usually held at an SF public high school (though
-          will be virtual for 2021 due to COVID-19). Students must attend every day.
+          not guaranteed. It is usually held at an SF public high school.
+          Students must attend every day.
           <strong> </strong>Since it is a SFUSD-sponsored class, there is no
           need to request special permission from your high school. The grade
           received in the summer course will count towards high school
@@ -54,8 +56,8 @@ const HighSchool = props => {
           <a href="https://hs-articulation.ucop.edu/agcourselist">
             UC website of approved classes
           </a>
-          . You could also take it at a community college such as College
-          of San Mateo or Skyline.
+          . You could also take it at a community college such as College of San
+          Mateo or Skyline.
         </p>
         <h4>
           Pathways #7 and #8) Summers After 10th &amp; 11th Grades: Algebra 2

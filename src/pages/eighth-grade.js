@@ -80,8 +80,7 @@ const Eighth = props => {
             {" "}
             Course Title: Algebra 1, Semester 1 &amp; 2 (non-honors). Be sure to
             register for the regular (non-honors) Algebra 1 course, as that is
-            the UC-approved course. APEX occasionally emails $50 off coupons so
-            sign up to receive their emails if you’re interested.&nbsp;
+            the UC-approved course.
           </ListItem>
           <ListItem
             title="UC Scout - University of California."
@@ -95,28 +94,22 @@ const Eighth = props => {
             anytime and go at their own pace, they have to finish the class by
             the official end date.&nbsp;
           </ListItem>
+          <ListItem
+            title="Silicon Valley High School."
+            link="https://svhs.co/course-catalog/"
+          >
+            {" "}
+            Course Title: Algebra 1, Part 1 & 2.
+          </ListItem>
         </ul>
-        <p>
-          I took the APEX class in 8th grade since that’s the only class my
-          parents had heard about, but lots of kids also take BYU since it’s a
-          little cheaper. I started the class in October, finished at the end of
-          April, and took the MVT in May. Based on my experience, I spent around
-          1 or 2 hours of reading and on homework each week. You go at your own
-          pace, so sometimes I would skip a week if I was busy and other times,
-          such as during Winter Break, I got through a lot of units. Also while
-          I didn’t talk to the teacher since I was able to get help by googling
-          or asking my parents, other kids have found emailing the teacher or
-          going to office hours helpful.
-        </p>
-        <p>A couple of other things you should know:</p>
+        <p>A few things to know:</p>
         <ul>
           <li>
             <p>
-              Both semesters must be completed in order to be eligible for the
-              MVT, but they’re the same price whether you register for one
-              semester at a time or for the full year. So I recommend just
-              paying for the first semester, in case you change your mind about
-              taking the second.{" "}
+              Both semesters must be completed, but they’re the same price
+              whether you register for one semester at a time or for the full
+              year. So I recommend just paying for the first semester, in case
+              you change your mind about taking the second.{" "}
             </p>
           </li>
           <li>
@@ -124,8 +117,6 @@ const Eighth = props => {
               BYU and UC Scout require the final exam to be proctored in person.
               That means you would arrange to take the test at one of their
               testing locations (Sylvan Learning, for example) and pay a fee.
-              Note: During COVID-19, they are allowing tests to be taken at home
-              using an online proctoring system.
             </p>
           </li>
           <li>
@@ -140,10 +131,10 @@ const Eighth = props => {
           </li>
           <li>
             <p>
-              Even if you learn algebra on your own by reading a book or using
-              Khan Academy, for instance, this does not make you eligible for
-              the MVT. You must take an approved, full-year class and receive a
-              C grade or higher.
+              You must take an approved, full-year class and receive a C grade
+              or higher. Even if you learn algebra on your own by reading a book
+              or using Khan Academy, for instance, you would not be eligible to
+              take Geometry.
             </p>
           </li>
         </ul>
@@ -152,7 +143,9 @@ const Eighth = props => {
         </strong>
         <p>
           In addition to the Algebra class, you have to pass the SFUSD Math
-          Validation Test in order to pass out of Algebra.&nbsp;
+          Validation Test in order to pass out of Algebra. In 2023, however,
+          SFUSD removed the test requirement and it is unclear if it will be
+          given in the future.
         </p>
         <p>
           The MVT test is typically held twice, in May and August. To register
@@ -160,7 +153,7 @@ const Eighth = props => {
           and be enrolled or done with the second semester class.&nbsp;
         </p>
         <p>
-          For details on upcoming MVT dates and how to register,{" "}
+          For more details on the MVT,{" "}
           <a href="https://www.sfusd.edu/mvt" target="_blank" rel="noreferrer">
             click here
           </a>

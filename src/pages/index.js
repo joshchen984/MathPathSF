@@ -15,13 +15,6 @@ const IndexPage = () => {
           }
         }
       }
-      board: file(relativePath: { eq: "lowell-board.jpg" }) {
-        childImageSharp {
-          fluid(maxWidth: 600) {
-            ...GatsbyImageSharpFluid
-          }
-        }
-      }
     }
   `)
   return (
@@ -61,13 +54,10 @@ const IndexPage = () => {
         </p>
         <HomeButtons />
       </div>
-      <div style={{width:"60%", margin:"auto"}}>
+      <div style={{ width: "60%", margin: "auto" }}>
         <Row>
-          <Col lg={6}>
+          <Col lg={12}>
             <Image data={images.flowchart} />
-          </Col>
-          <Col lg={6}>
-            <Image data={images.board} />
           </Col>
         </Row>
       </div>

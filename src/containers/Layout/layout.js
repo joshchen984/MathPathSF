@@ -49,8 +49,9 @@ const Layout = ({ children }) => {
       </main>
       <Footer>
         <i>
-          Copyright © 2022 MathPathSF. All Rights Reserved. No portion of this
-          website may be reproduced without my express written consent.
+          Copyright © {new Date().getFullYear()} MathPathSF. All Rights
+          Reserved. No portion of this website may be reproduced without my
+          express written consent.
           <br />
           Send your questions, comments, or suggestions to mathpathsf@gmail.com.
         </i>
