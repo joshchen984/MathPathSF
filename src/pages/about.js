@@ -12,35 +12,28 @@ const About = props => {
       <div className="content">
         <h1>About</h1>
         <p>
-          When I started my freshman year at Lowell High School in San
-          Francisco, I was able to take Geometry after passing the Math
-          Validation Test. My parents had heard from a friend that Algebra was
-          no longer being offered in 8th grade so their son was taking an
-          Algebra class online, and I did the same. But I quickly realized I was
-          lucky to have had this opportunity.
+          MathPathSF is a student-run organization dedicated to empowering
+          students to navigate math advancement within the San Francisco public
+          school district (SFUSD).
         </p>
-        <br />
         <p>
-          Many of my new classmates who were interested in more challenging math
-          courses were stressing out, meeting with their counselors and asking
-          to double up in Algebra and Geometry even if it meant giving up band
-          or a language class. But there weren’t enough spots for everyone. They
-          didn’t know it was possible to pass out of Algebra in 8th grade and
-          had never heard of the MVT test, or they found out too late to
-          complete the class. Yet the kids who had come from private school were
-          able to enroll in Geometry since they had had access to Algebra in 8th
-          grade.
+          It was founded in 2021 to support students who were stressing out
+          about how to take Calculus before graduating high school. Each year,
+          freshman with this goal meet with their counselors and ask to double
+          up in Algebra and Geometry even if it means giving up a language class
+          or band, but most are not able to as there are not enough spots. Most
+          are also not aware that it is possible to pass out of Algebra by
+          taking an online class in eighth grade, yet kids who attended private
+          school are able to enroll in Geometry as freshmen since their schools
+          taught eighth-grade Algebra.
         </p>
-        <br />
         <p>
-          While I definitely don’t think taking advanced math classes is
-          necessary for everyone, I felt bad that kids who wanted to were at a
-          disadvantage and had to scramble to figure out their options just
-          because they didn’t have the information. This led me to the idea of a
-          website to inform people about the different ways to advance in math
-          and take Calculus in a SFUSD high school. I hope this site makes the
-          process more transparent and easy to understand so students are aware
-          of what’s possible and can decide what’s best for their education.
+          While we do not believe that taking advanced math classes is necessary
+          for everyone, we want to inform students about the different ways to
+          advance in math and be able to take Calculus in an SFUSD high school
+          if that is your goal. We hope this site makes the process more
+          transparent and easy to understand so students are aware of what’s
+          possible and can decide what’s best for their education.
         </p>
       </div>
       <Testimonials />
